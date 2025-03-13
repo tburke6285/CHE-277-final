@@ -16,11 +16,11 @@ import torch.optim as optim
 
 #==============DATA IMPORTING AND PROCESSING ===============
 #IMPORT DATA FROM FILES
-BA_Data = pd.read_csv ("/Users/thomasburke/Documents/PYTHON/FinalProjectData/ba_raw_data.csv" , index_col =0,header =0)
-MMD_Data=pd.read_csv ("/Users/thomasburke/Documents/PYTHON/FinalProjectData/mmd_raw_data.csv" , index_col =0,header =0)
-MN_Data=pd.read_csv ("/Users/thomasburke/Documents/PYTHON/FinalProjectData/mn-mw_raw_data.csv" , index_col =0,header =0)
-RT_Data=pd.read_csv ("/Users/thomasburke/Documents/PYTHON/FinalProjectData/rt_raw_data.csv" , index_col =0,header =0)
-VA_Data=pd.read_csv ("/Users/thomasburke/Documents/PYTHON/FinalProjectData/Full_VA_Data.csv" , index_col =0,header =0)
+BA_Data = pd.read_csv ("/file path/ba_raw_data.csv" , index_col =0,header =0)
+MMD_Data=pd.read_csv ("/file path/mmd_raw_data.csv" , index_col =0,header =0)
+MN_Data=pd.read_csv ("/file path/mn-mw_raw_data.csv" , index_col =0,header =0)
+RT_Data=pd.read_csv ("/file path/rt_raw_data.csv" , index_col =0,header =0)
+VA_Data=pd.read_csv ("/file path/Full_VA_Data.csv" , index_col =0,header =0)
 
 #___________________________________
 #ORGANIZE DATA INTO USEFUL VARIABLES
